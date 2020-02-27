@@ -79,9 +79,9 @@ Train your lda model using gensim.models.LdaMulticore and save it to 'lda_model'
 '''
 # TODO
 lda_model =  gensim.models.LdaMulticore(bow_corpus, 
-                                   num_topics = 8, 
+                                   num_topics = 5, 
                                    id2word = dictionary,                                    
-                                   passes = 10,
+                                   passes = 2,
                                    workers = 2)
 
 
